@@ -1,0 +1,37 @@
+name: atenea
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # para la gestión de variables de entorno: 
+  flutter_dotenv: ^6.0.1
+
+  # Cliente de Telegram basado en TDLib
+  tdlib: 1.6.0 # O la versión compatible con tu entorno TDLib / tdlib_dart
+  
+  # Manejo de estado recomendado
+  flutter_riverpod: ^2.5.1
+
+  # Almacenamiento seguro para tokens y sesión de Telegram
+  flutter_secure_storage: ^9.0.0
+
+  # Rutas a carpetas del sistema (para guardar los MP3)
+  path_provider: ^2.1.2
+
+  # Reproducción de audio (lo usaremos más adelante)
+  just_audio: ^0.9.36
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
