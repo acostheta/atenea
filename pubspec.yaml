@@ -20,13 +20,14 @@ dependencies:
   flutter_riverpod: ^2.5.1
 
   # Almacenamiento seguro para tokens y sesión de Telegram
-  flutter_secure_storage: ^9.0.0
 
   # Rutas a carpetas del sistema (para guardar los MP3)
   path_provider: ^2.1.2
 
   # Reproducción de audio (lo usaremos más adelante)
   just_audio: ^0.9.36
+  telegram_client: ^0.8.35
+  shared_preferences: ^2.5.3
 
 dev_dependencies:
   flutter_test:
